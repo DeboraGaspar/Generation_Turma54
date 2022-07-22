@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    padding: 10px 15px;
+}
+
+header{
+    background-color: #e5f98bd1;
+    height: 115px;
+    display: flex;
+    color: rgb(209 58 198 / 91%);
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+
+body {
+	background-color: #b94d0e;
+	color: #cdb22c;
+	margin: 0;
+	font-family: 'Quicksand';
+}
+
+.estacoes{
+    float: left;
+    border: transparent thin solid;
+    padding: 12px;
+    margin: -72px 39px -6px 0px;
+    max-width: 98px;
+}
+
+.sobre{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}

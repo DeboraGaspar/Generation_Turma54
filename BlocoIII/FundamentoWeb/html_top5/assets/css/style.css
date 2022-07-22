@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(204 224 235 / 72%);
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    min-width: 320px;
+    padding: 10px 200px;
+}
+
+header{
+    background-color: #070909;
+    height: 100px;
+    display: flex;
+    color: rgb(21 180 218);
+}
+
+.titulo{
+    font-size: 'Open Sans';
+    font-style: italic;
+    justify-content: center;
+}
+
+img{
+    height: 100%;
+    width: 150%;
+    object-fit: contain;
+}
+
+.biblia{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: -6px 24px 0px -15px;
+    max-width: 100px;
+   
+}
+
+.vermelho{
+    float: right;
+    border: transparent thin solid;
+    padding: 15px;
+    margin: -71px 27px 0 -20px;
+    max-width: 100px;
+}
+
+.quixote{
+    float: left;
+    border: transparent thin solid;
+    padding: 12px;
+    margin: -72px 39px -6px 0px;
+    max-width: 98px;
+}
+
+.potter{
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: -63px 34px -5px -33px;
+    max-width: 100px;
+}
+
+.conto{
+    float: left;
+    border: transparent thin solid;
+    padding: 15px;
+    margin: -69px 30px 0 0px;
+    max-width: 99px;
+}
+
+h2{
+    color: #213566;
+    text-align: center;
+    margin: revert
+}
+
+p{
+    text-align: start;
+    color: #172020;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 14px;
+    margin-inline-end: 0;
+}
