@@ -14,10 +14,11 @@ body{
 
 .flex-container{
     display: flex;
-    max-width: 992px;
+    max-width: 150px;
     margin: auto;
+    width: 100%;
     min-width: 320px;
-    padding: 10px 200px;
+    padding: 5px 0px;
 }
 
 header{

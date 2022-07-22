@@ -6,7 +6,7 @@
 
 .flex-container{
     display: flex;
-    max-width: 992px;
+    max-width: 920px;
     margin: auto;
     width: 100%;
     min-width: 320px;
@@ -14,32 +14,130 @@
 }
 
 header{
-    background-color: #e5f98bd1;
-    height: 115px;
+    background-color: #e4e41a;
+    height: 100px;
     display: flex;
-    color: rgb(209 58 198 / 91%);
+    color: rgb(76 58 209);
     font-size: xx-large;
     font-style: oblique;
 }
 
+h1{
+    display: block;
+    font-size: xx-large;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: revert;
+    font-stretch: expanded;
+}
+
 
 body {
-	background-color: #b94d0e;
-	color: #cdb22c;
-	margin: 0;
-	font-family: 'Quicksand';
+    background-color: rgb(58 113 209 / 21%);
+    color: rgb(58 113 209 / 91%);
+    margin: 0;
 }
 
 .estacoes{
     float: left;
     border: transparent thin solid;
-    padding: 12px;
-    margin: -72px 39px -6px 0px;
-    max-width: 98px;
+    padding: 18px;
+    margin: 5px 11px 0px 0px;
+    max-width: 500px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .sobre{
-    height: 100vh;
+    height: 54vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+h2{
+    font-weight: initial;
+    font-family: cursive;
+    padding: 100px 10px 100px 10px;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+}
+
+.verao{
+    float: left;
+    border: transparent thin solid;
+    padding: 12px;
+    margin: 2px 13px 22px 6px;
+    max-width: 500px;
+}
+
+.outono{
+    float: left;
+    border: transparent thin solid;
+    padding: 10px;
+    margin: 2px 17px 0px 4px;
+    max-width: 300px;
+}
+
+.inverno{
+    float: left;
+    border: transparent thin solid;
+    padding: 10px;
+    margin: 2px 17px 0px 4px;
+    max-width: 300px;
+}
+
+.primavera{
+    float: left;
+    border: transparent thin solid;
+    padding: 10px;
+    margin: 2px 17px 0px 4px;
+    max-width: 300px;
+}
+
+#verao{
+    padding: 70px 20px 70px 10px;
+    font-family: cursive;
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#outono{
+    padding: 40px 20px 57px 10px;
+    font-family: cursive;
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#inverno{
+    padding: 25px 20px 36px 10px;
+    font-family: cursive;
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#primavera{
+    padding: 42px 20px 100px 10px;
+    font-family: cursive;
+    display: block;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ass{
+    justify-content: center;
+    display: flex;
+    max-width: 100;
+    margin: auto;
+    width: 96%;
+    padding: 15px;
 }
