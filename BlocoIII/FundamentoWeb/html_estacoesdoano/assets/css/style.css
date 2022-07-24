@@ -6,11 +6,11 @@
 
 .flex-container{
     display: flex;
-    max-width: 920px;
-    margin: auto;
-    width: 100%;
-    min-width: 320px;
-    padding: 10px 15px;
+    max-width: 916px;
+    margin: unset;
+    width: 120%;
+    min-width: 182px;
+    padding: 4px 4px;
 }
 
 header{
@@ -102,7 +102,7 @@ h3{
 }
 
 #verao{
-    padding: 70px 20px 70px 10px;
+    padding: 100px 30px 75px 0px;
     font-family: cursive;
     display: block;
     text-align: justify;
@@ -110,7 +110,7 @@ h3{
 }
 
 #outono{
-    padding: 40px 20px 57px 10px;
+    padding: 75px 30px 75px 0px;
     font-family: cursive;
     display: block;
     text-align: justify;
@@ -118,7 +118,7 @@ h3{
 }
 
 #inverno{
-    padding: 25px 20px 36px 10px;
+    padding: 75px 30px 75px 0px;
     font-family: cursive;
     display: block;
     text-align: justify;
@@ -126,7 +126,7 @@ h3{
 }
 
 #primavera{
-    padding: 42px 20px 100px 10px;
+    padding: 75px 30px 75px 0px;
     font-family: cursive;
     display: block;
     text-align: justify;
