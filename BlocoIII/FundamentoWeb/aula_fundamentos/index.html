@@ -3,34 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <title>Index</title>
-
+    <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!-- Comentário -->
-    <h1>Hello World, Turma 54</h1>
-    <h2>Iniciando Conteúdo do Front End</h2>
-    <h3>HTML / CSS</h3>
+    <ul id="menu">
+        <li>
+            <a href="index.html"> Home </a>
+        </li>
+        <li>
+            <a href="contato.html"> Contato </a>
+        </li>
+    </ul>
 
-    <p id="p-first">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quidem sunt consequatur, debitis aut eligendi mollitia praesentium vitae ipsam quas omnis beatae veritatis molestiae voluptates facere dicta error placeat. Consequatur.
-    </p>
-
-    <p class="p-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse tempore ullam animi? Atque delectus, eveniet odio excepturi, similique porro aliquam non tempore soluta consectetur nam. Neque laudantium ipsum omnis.</p>
-
-    <p class="p-color" style="color:blue">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis officia nemo blanditiis cupiditate ipsum neque, magni iste veniam laborum obcaecati. Asperiores iure tempore quam quibusdam vel nobis sit iste modi?</p>
+    <h1 class="center">Sobre Débora</h1>
 
     <div class="container">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est aspernatur natus sint libero eligendi perferendis perspiciatis iusto quo labore quae rerum voluptate assumenda harum quidem dolor veniam, nostrum vel ducimus.
-        </p>
-
-        <img src="./assets/imagem-por-do-sol.jpg" />
-
+        <div>
+            <img class="br-50 wh-300 p-30" src="./assets/me.jpg" alt="Foto pessoal Débora Gaspar">
+        </div>
+        <div class="p-30">
+            <p class="justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum similique dolore neque quasi nesciunt voluptates sequi. Nisi recusandae repellat eaque, eligendi voluptate natus aperiam, minus distinctio quidem nobis, culpa nam.</p>
+  
+            <p class="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet at quas accusantium autem ipsam deleniti quaerat soluta, quos quae? Suscipit sed praesentium corrupti labore voluptatibus aperiam inventore excepturi! Nihil, dicta.</p>
+        </div>
     </div>
+    
 
+    
+    <h2 class="center">Meu video predileto:</h2>
+
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/4MXuoXxaiOg" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/DeboraGaspar" target="_blank">
+                <img class="tm-social p-30" src="./assets/github.png" alt="logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/d%C3%A9bora-gaspar-b6bab517b/" target="_blank">
+                <img class="tm-social p-30" src="./assets/linkedin.png" alt="logo linkedin">
+            </a>
+            
+        </div>
+        <p class="center">
+            Todos direitos reservados: Débora Gaspar &copy
+        </p>
+    </footer>
 </body>
 </html>
